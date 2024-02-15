@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de Números</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar">
+            <li><a href="#">Generar digito</a></li>
+            <li><a href="#">Verificar digito</a></li>
+            <li><a href="#">Mostrar lista</a></li>
+        </ul>
+    </header>
+
+<aside id="parte">
+    <h2>Generar Dígito Verificador</h2>
+    <label for="numero">Ingrese un número:</label>
+    <input type="text" id="numeroInput" class="ingresardatos">
+    <button onclick="generarDigitoVerificador()" >Generar</button>
+</aside>
+
+<aside id="parte">
+    <h2>Verificar Existencia en la Lista</h2>
+    <label for="numeroVerificar">Ingrese un número y su dígito verificador:</label>
+    <input type="text" id="numeroVerificarInput" class="ingresardatos">
+    <button onclick="verificarExistencia()">Verificar</button>
+</aside>
+
+<aside id="parte">
+    <h2>Mostrar Listado de Números y Dígitos Verificadores</h2>
+    <button onclick="mostrarListado()">Mostrar Listado</button>
+    <ul id="listado" style="display: none;"></ul>
+</aside>
+
+<script src="./js/script.js"></script>
+</body>
+</html>
