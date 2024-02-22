@@ -1,0 +1,93 @@
+body {
+    background-color: #f2f2f2;
+    padding: 20px;
+
+}
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 170px;
+    background: var(--bg-color);
+    
+}
+
+.logo {
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar a {
+    color: var(--text-color);
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+
+.navbar a:hover {
+    transition: .4s;
+    transition: box-shadow 0.3s ease 0s;
+    text-shadow: 5px 3px 3px #000000;
+    transition: 1s;
+}
+
+#menu-icon {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+aside {
+    margin-bottom: 20px;
+    background-color: white; 
+    padding: 15px;
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    padding-top: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #4194ec;
+    transform: scale(1.1); 
+}
+
+input {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+#listado {
+    display: none;
+    font-size: 20px;
+}

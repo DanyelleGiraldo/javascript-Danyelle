@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Buscador de Subsecuencias de ADN</title>
+</head>
+
+<body>
+    <div class="containerprincipal">
+        <div class="container">
+            <div id="dnalogo">
+                <h1>Buscador de Subsecuencias de ADN</h1>
+            </div>
+
+            <div class="clearfix">
+                <div class="ops">
+                    <label for="dnaInput" class="subtitles">
+                        <h3>Secuencia de ADN:</h3>
+                    </label>
+                    <div>
+                        <textarea class="inputs" id="dnaInput" placeholder="Ingresa la secuencia de ADN"></textarea>
+                    </div>
+
+                    <label for="subsequenceInput" class="subtitles">
+                        <h3>Subsecuencia a buscar:</h3>
+                    </label>
+                    <div>
+                        <input type="text" class="inputs" id="subsequenceInput" placeholder="Ingresa la subsecuencia">
+                    </div>
+
+                    <div id="button">
+                        <button onclick="mostrarResultado()">Buscar</button>
+                    </div>
+
+                    <ul id="resultado" style="display: none;"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
