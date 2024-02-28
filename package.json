@@ -1,0 +1,12 @@
+{
+  "name": "invoce-developer-master",
+  "version": "1.0.0",
+  "description": "Desarrollo de proyecto de un sistema de facturación. Este proyecto fue desarrollado en clase.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,195 @@
+{
+  "clientes": [
+    {
+      "id": "0",
+      "nombre": "Mekhi Cummings Jr.",
+      "edad": 23,
+      "email": "Marley.Dare54@yahoo.com"
+    },
+    {
+      "id": "1",
+      "nombre": "Pearl Buckridge",
+      "edad": 19,
+      "email": "Heather_Cormier44@gmail.com"
+    },
+    {
+      "id": "2",
+      "nombre": "Mrs. Sofia Kreiger",
+      "edad": 32,
+      "email": "Leopold.Bogisich@hotmail.com"
+    },
+    {
+      "id": "3",
+      "nombre": "Samanta Sporer",
+      "edad": 21,
+      "email": "Hollis40@gmail.com"
+    },
+    {
+      "id": "4",
+      "nombre": "Mitchel Grimes IV",
+      "edad": 32,
+      "email": "Jessie23@gmail.com"
+    },
+    {
+      "id": "5",
+      "nombre": "Mrs. Tony Brakus",
+      "edad": 23,
+      "email": "Donald_Spencer37@yahoo.com"
+    },
+    {
+      "id": "6",
+      "nombre": "Zena Kunde",
+      "edad": 12,
+      "email": "Dalton.Ferry@hotmail.com"
+    },
+    {
+      "id": "7",
+      "nombre": "Clemmie Murazik",
+      "edad": 74,
+      "email": "Virginia39@yahoo.com"
+    },
+    {
+      "id": "8",
+      "nombre": "Keshaun Lang",
+      "edad": 23,
+      "email": "Nicole10@gmail.com"
+    },
+    {
+      "id": "9",
+      "nombre": "Lois Ferry",
+      "edad": 32,
+      "email": "Cooper.Ondricka@gmail.com"
+    },
+    {
+      "id": "10",
+      "nombre": "Einar Yundt",
+      "edad": 26,
+      "email": "Matt11@yahoo.com"
+    },
+    {
+      "id": "12",
+      "nombre": "a",
+      "edad": "2",
+      "email": "asdf"
+    },
+    {
+      "id": 1,
+      "nombre": "a",
+      "edad": "12333",
+      "email": "dan@gmail.com"
+    }
+  ],
+  "facturas": [
+    {
+      "Fecha": "2024-02-23",
+      "Cliente": "John Doe",
+      "Total": 50.25,
+      "Productos": [
+        {
+          "codigo": "PROD2",
+          "Cantidad": 2,
+          "Subtotal": 30
+        },
+        {
+          "codigo": "PROD5",
+          "Cantidad": 1,
+          "Subtotal": 20.25
+        }
+      ],
+      "id": "67ee"
+    },
+    {
+      "Fecha": "2024-02-24",
+      "Cliente": "Jane Smith",
+      "Total": 75.5,
+      "Productos": [
+        {
+          "codigo": "PROD3",
+          "Cantidad": 3,
+          "Subtotal": 45
+        },
+        {
+          "codigo": "PROD7",
+          "Cantidad": 2,
+          "Subtotal": 30.5
+        }
+      ],
+      "id": "5c14"
+    },
+    {
+      "Fecha": "2024-02-25",
+      "Cliente": "Bob Johnson",
+      "Total": 22.75,
+      "Productos": [
+        {
+          "codigo": "PROD9",
+          "Cantidad": 1,
+          "Subtotal": 22.75
+        }
+      ],
+      "id": "d71b"
+    }
+  ],
+  "productos": [
+    {
+      "codigo": "PROD1",
+      "descripcion": "Gorgeous Granite Hat",
+      "precio": 27,
+      "id": "3374"
+    },
+    {
+      "codigo": "PROD2",
+      "descripcion": "Handmade Soft Shoes",
+      "precio": 92,
+      "id": "6005"
+    },
+    {
+      "codigo": "PROD3",
+      "descripcion": "Generic Wooden Towels",
+      "precio": 38,
+      "id": "f126"
+    },
+    {
+      "codigo": "PROD4",
+      "descripcion": "Incredible Granite Chair",
+      "precio": 62,
+      "id": "9d51"
+    },
+    {
+      "codigo": "PROD5",
+      "descripcion": "Refined Cotton Sausages",
+      "precio": 21,
+      "id": "b900"
+    },
+    {
+      "codigo": "PROD6",
+      "descripcion": "Handmade Frozen Gloves",
+      "precio": 96,
+      "id": "d52a"
+    },
+    {
+      "codigo": "PROD7",
+      "descripcion": "Unbranded Soft Pants",
+      "precio": 49,
+      "id": "21bf"
+    },
+    {
+      "codigo": "PROD8",
+      "descripcion": "Unbranded Granite Ball",
+      "precio": 48,
+      "id": "c914"
+    },
+    {
+      "codigo": "PROD9",
+      "descripcion": "Handmade Cotton Salad",
+      "precio": 44,
+      "id": "488a"
+    },
+    {
+      "codigo": "PROD10",
+      "descripcion": "Fantastic Cotton Shoes",
+      "precio": 17,
+      "id": "0f3c"
+    }
+  ]
+}
